@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family : 'Pokemon Solid' , sans-serif ; 
+    background: linear-gradient(90deg, rgba(235,162,67,1) 35%, rgba(255,25,0,1) 100%);                                           
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: #fef9c3;
+    border-radius: 15px;
+    
+}
+#image-wrapper{
+    width:300px;
+}
+#image{
+    width: 100%;
+}
+#header{
+    padding: 20px ;
+    display: flex;
+    font-size: 30px;
+}
+#nomber{
+    padding: 0 1rem 0 0;
+}
+#button{
+   background-color: #991b1b;
+   padding: 0.5rem;
+   border-radius: 10px;
+   color: white;
+   margin-bottom: 1rem; 
+}
