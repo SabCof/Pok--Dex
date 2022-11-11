@@ -2,6 +2,7 @@ let button = document.getElementById('button');
 let image = document.getElementById('image');
 let pokeNumber = document.getElementById('nomber');
 let pokeName = document.getElementById('name');
+let pokeType = document.getElementById('type');
 
                     // async pour montrer que c'est asynchrone
 const changePokemon = async( ) => {
@@ -17,7 +18,7 @@ const changePokemon = async( ) => {
     image.src = response.sprites.front_default;
     pokeNumber.textContent =`#${response.id}` ;
     pokeName.textContent = response.name;
-   
+    pokeType.textContent = response.types[0].type.name;
 };
 changePokemon(); // déclaration de la fonction
 button.addEventListener('click', changePokemon);// au clic du bouton on écoute la fonction changePokemon

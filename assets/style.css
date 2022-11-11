@@ -35,6 +35,9 @@ body{
 #nomber{
     padding: 0 1rem 0 0;
 }
+#type {
+    padding: 0 1rem 0 1rem;
+}
 #button{
    background-color: #991b1b;
    padding: 0.5rem;
